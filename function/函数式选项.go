@@ -18,7 +18,6 @@ type User struct {
 	Gender   bool   // 非必须
 	password string // 小写，非导出
 }
-
 type Server struct {
 	Addr     string
 	Port     int
